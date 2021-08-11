@@ -1,6 +1,7 @@
 import psycopg2
 import pandas as pd
 from openpyxl.workbook import Workbook
+# 
 db = psycopg2.connect(database="AssignmentPythonSQL", user="postgres", password="Rajat@98")
 
 try:
@@ -9,7 +10,7 @@ try:
 except:
     print("Error")
 
-
+#use finally
 
 
 
