@@ -8,4 +8,4 @@ try:
     data.to_excel("Output2.xlsx")  # Converting DataFrame to Excel filey
 except:
     print("Error")
-
+# please close the connection using finally
